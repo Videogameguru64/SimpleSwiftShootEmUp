@@ -2,9 +2,9 @@
 // GameScene.swift
 // SpriteKitTutorial1
 //
-// Written by Joey deVilla - August 2014
-// Last updated September 30, 2014
-// using XCode 6.0.1
+//  Shoot Game
+//
+//  Created by Chuck Konkol 4/2015.
 //
 // A simple shoot-em-up game that shows some Sprite Kit basics in Swift.
 // Some of the code was adapted from the simple game featured in
@@ -100,7 +100,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     addChild(ship)
     
     // Game physics
-    physicsWorld.gravity = CGVector(0, 0) // No gravity in this game...yet!
+    physicsWorld.gravity = CGVector(dx: 0, dy: 0) // No gravity in this game...yet!
     physicsWorld.contactDelegate = self // We'll handle contact between physics bodies in this class
     
     spawnAlien() // Start the game with a single alien

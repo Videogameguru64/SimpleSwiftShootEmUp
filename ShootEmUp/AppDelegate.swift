@@ -1,10 +1,9 @@
 //
 //  AppDelegate.swift
-//  ShootEmUp
+//  Shoot Game
 //
-//  Created by Joey deVilla on 9/1/14.
-//  Copyright (c) 2014 Global Nerdy. All rights reserved.
-//
+//  Created by Chuck Konkol 4/2015.
+
 
 import UIKit
 
